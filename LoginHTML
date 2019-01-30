@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Molloy Mentoring Login</title>
+    <link rel="stylesheet" type"text/css" href="mentoringApp/index.css">
+  </head>
+
+  <header id = "header"> 
+    <h1> <img id = "logo" src = "mentoringApp/images/logo.png"></h1>
+  </header>
+
+  <body>
+    <script src="script.js"></script>
+
+    <div class = "loginbox">
+
+      <img src="mentoringApp//images/avatar.png"class="avatar">
+
+      <h1> Login Here </h1>
+        <form>
+          <p> Username </p>
+          <input type = "text" name = "" placeholder="Enter Username">
+          <p> Password </p>
+          <input type = "text" name = "" placeholder="Enter Password">
+          <input type = "submit" name = "" value = "Login">
+          <a href = "#"> Don't Have an Account Yet? </a>
+          <br>
+          <a href = "#"> Forgot Password? </a>
+        </form>
+
+    </div>
+
+  </body>
+
+</html>
